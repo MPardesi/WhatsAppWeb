@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.layout > *{
+    border: 1px solid black;
+}
+
+.layout aside header div:nth-child(1){
+    background-color:white;
+}
+
+.layout aside header div:nth-child(2){
+    background-color:whitesmoke
+}
+
+main{
+    background-color: linen;
+}
+
+aside{
+    background-color:whitesmoke;
+}
+
+.sidebottom .input-text{
+background-color: lightgray
+}
+
+.sidebottom .input-text input{
+    background-color: whitesmoke;
+}
+
+footer{
+    background-color:whitesmoke;
+    border: whitesmoke;
+}
+
+footer .textbox input{
+    background-color: white;
+}
